@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    /* min-height: 50vh; */
+}
+
+.endHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.middleHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 1.735rem;
+}
+
+.middleHolder>div{
+    margin-bottom: 1.735rem;
+}
+
+@media only screen and (max-width: 480px){
+    .container{
+        flex-direction: column;
+    }
+    .endHolder{
+        margin-bottom: 1.735rem;
+    }
+    .middleHolder{
+        margin: 0;
+    }
+}

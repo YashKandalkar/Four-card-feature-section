@@ -1,0 +1,28 @@
+.container{
+    max-width: 50vmin;
+    box-shadow: 0px 5px 7px -4px #adadad;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.topLine{
+    height: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.leftBar{
+    width: 0px;
+    transition: width 0.3s ease-in;
+}
+
+.rightBar{
+    width: 0px;
+    transition: width 0.3s ease-in;
+}
+
+@media only screen and (max-width: 480px){
+    .container{
+        max-width: 60vw;
+    }
+}
