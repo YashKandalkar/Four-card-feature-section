@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "91faeb451cf20fa43165f609b6fe8497",
+    "revision": "08ab45b2d989f502b346286da5651f55",
     "url": "/Four-card-feature-section/index.html"
   },
   {
